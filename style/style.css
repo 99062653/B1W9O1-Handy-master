@@ -35,19 +35,30 @@ nav > ul > li{
     padding: 15px;
 }
 
-li:hover, #infodrop > p:hover{
+nav > ul > li:hover, #infodrop > p:hover{
     background-color: #ffe718;
     color: #222931;
     cursor: pointer;
 }
 
 #infodrop{
+    float: left;
     display: none;
     position: absolute;
+    top: 55px;
+    right: 955px;
     font-size: 16px;
     font-weight: 500;
-    background-color: #222931;
     min-width: 150px;
+    background-color: #222931;
+}
+
+#infodrop > p{
+    display: block;
+    text-align: left;
+    padding: 5px;
+    padding-right: 90%;
+    margin: 0;
 }
 
 #info:hover #infodrop{
@@ -216,10 +227,14 @@ h1.deals, h1.diensten, h1.contact{
     font-weight: 600;
 }
 
-h2.dealstext, h2.dienstentext, h2.contacttext{
+h2.dealstext, .dienstentext, h2.contacttext{
     display: inline-block;
     font-size: 14px;
     font-weight: 600;
+}
+
+.dienstentext{
+    color: #222931;
 }
 
 h2.dealstext{
@@ -234,13 +249,18 @@ h2.dienstentext, h2.contacttext{
     bottom: 40px;
 }
 
-
 .fa-handshake, .fa-toolbox, .fa-paper-plane{
     padding: 15px;
     font-size: 75px;
 }
 
-div.knop1:hover, div.knop2:hover, div.knop3:hover{
+div.knop1:hover, div.knop3:hover{
+    color: #ffffff;
+    background-color: #222931;
+    cursor: pointer;
+}
+
+div.knop2:hover a{
     color: #ffffff;
     background-color: #222931;
     cursor: pointer;
