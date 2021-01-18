@@ -109,6 +109,11 @@ div.overlay{
     cursor: pointer;
 }
 
+a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
 div.overlaytext{
     font-size: 32px;
     font-weight: 600;
@@ -171,6 +176,8 @@ span.werken{
 }
 
 span.meer{
+    color: #222931;
+    text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
@@ -233,10 +240,6 @@ h2.dealstext, .dienstentext, h2.contacttext{
     font-weight: 600;
 }
 
-.dienstentext{
-    color: #222931;
-}
-
 h2.dealstext{
     position: relative;
     bottom: 40px;
@@ -260,7 +263,7 @@ div.knop1:hover, div.knop3:hover{
     cursor: pointer;
 }
 
-div.knop2:hover a{
+div.knop2:hover{
     color: #ffffff;
     background-color: #222931;
     cursor: pointer;
