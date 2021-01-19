@@ -339,6 +339,10 @@ p.footertext{
 
 /*tekst pagina*/
 
+div.breaker{
+    margin-top: -500px;
+}
+
 div.midden2{
     position: relative;
     top: 1075px;
